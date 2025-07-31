@@ -1,0 +1,33 @@
+/* src/components/Dashboard.css */
+
+/* This will be the full-page background */
+.dashboard-container {
+  display: flex;
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+  height: 100vh; /* Full screen height */
+  background-color: #f0f2f5; /* A light, neutral grey background */
+}
+
+/* This is the white card that holds the text */
+.dashboard-card {
+  background-color: white;
+  padding: 40px 50px; /* Add space inside the card */
+  border-radius: 10px; /* Round the corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  text-align: center;
+}
+
+/* Style the main heading */
+.dashboard-card h1 {
+  font-size: 28px;
+  color: #333;
+  margin: 0;
+}
+
+/* Style the paragraph text */
+.dashboard-card p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
